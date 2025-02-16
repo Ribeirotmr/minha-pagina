@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="input.css">
+    <link href=' http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+    <title>Portifólio Thierry Ribeiro</title>
+
+
+
+</head>
+
+<body class="bg-gradient-to-r from-black via-black to-black">
+    <header class="flex space-x-4 text-gray-800 font-bold py-6 bg-gray-400 w-full fixed z-50">
+        <div class="container mx-auto pl-12 text-4xl">
+            <i class="fa-solid fa-code" style="color: #000000;"></i>
+        </div>
+        <div class="container mx-auto flex justify-end">
+            <nav>
+                <ul class="flex space-x-4 text-gray-800 font-bold pr-8">
+                    <li><a href="#" id="home" class="duration-700 hover:text-green-500">HOME</a></li>
+                    <li><a href="#" id="skills" class="duration-700 hover:text-green-500">SKILLS</a></li>
+                    <li><a href="#" id="projetos" class="duration-700 hover:text-green-500">PROJETOS</a></li>
+                    <li><a href="#" id="contato" class="duration-700 hover:text-green-500">CONTATO</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="flex" id="homeSection">
+        <div class="items-center ml-16 flex p-20">
+            <div class="w-1/2">
+                <p class="text-4xl text-green-400 font-bold animate-bounce">Olá! eu me chamo</p>
+                <p class="mt-1/2 font-bold text-4xl text-green-400">
+                    < Thierry Ribeiro />
+                </p>
+                <p class="mt-1/2 text-xl font-semibold text-green-400">
+                    Estudante de Ciência da Computação na Universidade
+                    Federal do Espírito Santo,
+                    sou apaixonado por resolver problemas e criar soluções inovadoras. Estou constantemente buscando
+                    aprender
+                    mais
+                    e estou ansioso por uma oportunidade para aplicar meus conhecimentos e expandir minhas habilidades.
+                </p>
+
+            </div>
+            <div class="w-1/2">
+                <img src="dev.png" class="w-full h-auto custom-bounce animate-delay-900">
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="flex flex-col p-12" id="skillsSection">
+        <div class="p-12">
+            <h2 class="text-4xl text-white font-bold text-center mb-4">
+                <div class="flex items-center">
+                    <div class="border-t border-purple-700 flex-grow mx-4"></div>
+                    <div class="bg-purple-700 w-auto p-6 rounded-lg text-white">
+                        SKILLS
+                    </div>
+                    <div class="border-t border-purple-700 flex-grow mx-4"></div>
+                </div>
+            </h2>
+            <div id="carouselContainer" class="overflow-hidden">
+                <div id="skillsCarousel" class="flex whitespace-nowrap p-12 gap-16 ">
+                    <!-- Original items -->
+                    <div class="bg-gray-700 rounded-lg p-4 shadow-2xl border flex-shrink-0 w-1/4 inline-block">
+                        <h3 class="text-2xl font-bold text-center text-white">HTML</h3>
+                        <div class="flex justify-center ">
+                            <img src="html.svg" class="w-1/2 h-auto ">
+                        </div>
+                    </div>
+                    <div class="bg-gray-700 rounded-lg p-4 shadow-2xl border flex-shrink-0 w-1/4 inline-block">
+                        <h3 class="text-2xl font-bold text-center text-white">tailwind</h3>
+                        <div class="flex justify-center">
+                            <img src="tail.svg" class="w-1/2 h-auto">
+                        </div>
+                    </div>
+                    <div class="bg-gray-700 rounded-lg p-4 shadow-2xl border flex-shrink-0 w-1/4 inline-block">
+                        <h3 class="text-2xl font-bold text-center text-white">JavaScript</h3>
+                        <div class="flex justify-center">
+                            <img src="js.svg" class="w-1/2 h-auto">
+                        </div>
+                    </div>
+                    <div class="bg-gray-700 rounded-lg p-4 shadow-2xl border flex-shrink-0 w-1/4 inline-block">
+                        <h3 class="text-2xl font-bold text-center text-white">Python</h3>
+                        <div class="flex justify-center">
+                            <img src="p.svg" class="w-1/2 h-auto">
+                        </div>
+                    </div>
+                    <div class="bg-gray-700 rounded-lg p-4 shadow-2xl border flex-shrink-0 w-1/4 inline-block">
+                        <h3 class="text-2xl font-bold text-center text-white">C</h3>
+                        <div class="flex justify-center">
+                            <img src="c.svg" class="w-1/2 h-auto">
+                        </div>
+                    </div>
+                    <div class="bg-gray-700 rounded-lg p-4 shadow-2xl border flex-shrink-0 w-1/4 inline-block">
+                        <h3 class="text-2xl font-bold text-center text-white">C++</h3>
+                        <div class="flex justify-center">
+                            <img src="cpp.svg" class="w-1/2 h-auto">
+                        </div>
+                    </div>
+                    <div class="bg-gray-700 rounded-lg p-4 shadow-2xl border flex-shrink-0 w-1/4 inline-block">
+                        <h3 class="text-2xl font-bold text-center text-white">Mysql</h3>
+                        <div class="flex justify-center">
+                            <img src="mysql.svg" class="w-1/2 h-auto">
+                        </div>
+                    </div>
+                    <div class="bg-gray-700 rounded-lg p-4 shadow-2xl border flex-shrink-0 w-1/4 inline-block">
+                        <h3 class="text-2xl font-bold text-center text-white">SQL</h3>
+                        <div class="flex justify-center">
+                            <img src="sql2.svg" class="w-1/2 h-auto">
+                        </div>
+                    </div>
+                    <div class="bg-gray-700 rounded-lg p-4 shadow-2xl border flex-shrink-0 w-1/4 inline-block">
+                        <h3 class="text-2xl font-bold text-center text-white">Postgres</h3>
+                        <div class="flex justify-center">
+                            <img src="post.svg" class="w-1/2 h-auto">
+                        </div>
+                    </div>
+                    <div class="bg-gray-700 rounded-lg p-4 shadow-2xl border flex-shrink-0 w-1/4 inline-block">
+                        <h3 class="text-2xl font-bold text-center text-white">MariaDB</h3>
+                        <div class="flex justify-center">
+                            <img src="maria.svg" class="w-1/2 h-auto">
+                        </div>
+                    </div>
+                    <div class="bg-gray-700 rounded-lg p-4 shadow-2xl border flex-shrink-0 w-1/4 inline-block">
+                        <h3 class="text-2xl font-bold text-center text-white">MongoDB</h3>
+                        <div class="flex justify-center">
+                            <img src="mongo.svg" class="w-1/2 h-auto">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="border-t border-purple-700 flex-grow mx-4"></div>
+    </div>
+
+
+
+
+    <div class="flex flex-col p-12" id="projetosSection">
+        <div class="p-12">
+            <h2 class="text-4xl text-white font-bold text-center mb-4">
+                <div class="flex items-center">
+                    <div class="border-t border-green-900 flex-grow mx-3"></div>
+                    <div class="bg-green-700 w-auto p-6 rounded-lg text-white">
+                        PROJETOS
+                    </div>
+                    <div class="border-t border-green-900 flex-grow mx-3"></div>
+                </div>
+            </h2>
+    
+            <!-- Grid com 3 colunas para os projetos -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+                
+                <!-- Card 1 -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        
+                        <!-- Frente do card -->
+                        <div class="flip-card-front bg-gray-800 text-white rounded-lg shadow-lg p-6 card">
+                            <img src="jv.png" alt="tictactoe" class="rounded-lg mb-4 h-52 w-full object-cover">
+                            <h3 class="text-xl font-bold mb-2">Casa&Cor</h3>
+                            <p class="text-sm text-gray-400 mb-4">An elegant renovation and decoration website with an intuitive, harmonious, and responsive design.</p>
+                            <div class="flex justify-between items-center">
+                                <span class="text-xl text-gray-500">Python</span>
+                                <div class="flex space-x-2">
+                                    <a href="#" class="bg-white text-black px-4 py-2 rounded text-sm">Code</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Verso do card -->
+                        <div class="flip-card-back bg-gray-700 text-white rounded-lg shadow-lg p-6">
+                            <h3 class="text-xl font-bold mb-2">More Details</h3>
+                            <p class="text-sm text-gray-400">This project was built using Python and Flask framework. It's a fully responsive website for interior design projects.</p>
+                            <a href="#" class="bg-white text-black px-4 py-2 rounded text-sm">View Project</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Card 2 -->
+                <div class="bg-gray-800 text-white rounded-lg shadow-lg p-6">
+                    <img src="db.jpg" alt="Lasso" class="rounded-lg mb-4 h-52 w-full object-cover">
+                    <h3 class="text-xl font-bold mb-2">Lasso</h3>
+                    <p class="text-sm text-gray-400 mb-4">Complete e-commerce where users can create an account, add products to a cart, shop, and much more.</p>
+                    <div class="flex justify-between items-center">
+                        <span class="text-xl text-gray-500">Mysql</span>
+                        <div class="flex space-x-2">
+                            <a href="#" class="bg-white text-black px-4 py-2 rounded text-sm">Code</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Card 3 -->
+                <div class="bg-gray-800 text-white rounded-lg shadow-lg p-6 card">
+                    <img src="jv.png" alt="tictactoe" class="rounded-lg mb-4 h-52 w-full object-cover">
+                    <h3 class="text-xl font-bold mb-2">Casa&Cor</h3>
+                    <p class="text-sm text-gray-400 mb-4">An elegant renovation and decoration website with an intuitive, harmonious, and responsive design.</p>
+                    <div class="flex justify-between items-center">
+                        <span class="text-xl text-gray-500">Python</span>
+                        <div class="flex space-x-2">
+                            
+                            <a href="#" class="bg-white text-black px-4 py-2 rounded text-sm">Code</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Adicionar mais cards aqui se necessário -->
+            </div>
+        </div>
+    </div>
+    
+
+
+
+
+
+
+
+        <!-- <div class="flex flex-col p-12" id="projetosSection">
+        <div class="gap-4 p-8 bg-white rounded-lg border-gray-300 border-4">
+            <div class="text-4xl font-bold text-center mb-4 py-6">
+                <h2>
+                    PROJETOS
+                </h2>
+            </div>   
+        </div>
+    </div> -->
+
+
+
+
+
+
+
+
+
+        <div class="flex flex-col p-12" id="contatoSection">
+            <div class="gap-4 p-8 bg-gray-700 rounded-lg border-gray-300 border-4">
+                <div class="text-4xl font-bold text-center mb-4 py-6">
+                    <h2>CONTATO</h2>
+                    <div class="grid grid-cols-4 gap-4 py-6 justify-center">
+                        <div class="border-4 p-4 justify-center items-center h-full shadow-xl flex flex-col">
+                            <img src="gmail.svg" class="p-4" id="image">
+                        </div>
+                        <div class="border-4 p-4 justify-center items-center h-full shadow-xl flex flex-col">
+                            <img src="github.svg" class="p-4" id="image">
+                        </div>
+                        <div class="border-4 p-4 justify-center items-center h-full shadow-xl flex flex-col">
+                            <img src="linkedin.svg" class="p-4" id="image">
+                        </div>
+                        <div class="border-4 p-4 justify-center items-center h-full shadow-xl flex flex-col">
+                            <img src="instagram.svg" class="p-4" id="image">
+                        </div>
+                    </div>
+                </div>
+                <form id="sugestaoForm" onsubmit="enviarSugestao(event)" class="space-y-4">
+                    <div class="flex flex-col">
+                        <label for="nome" class="mb-2 text-lg font-medium">Nome:</label>
+                        <input type="text" id="nome" name="nome" required
+                            class="p-2 border-2 border-gray-300 rounded-lg focus:outline-none focus:border-blue-500">
+                    </div>
+                    <div class="flex flex-col">
+                        <label for="sugestao" class="mb-2 text-lg font-medium">Sugestão:</label>
+                        <textarea id="sugestao" name="sugestao" required
+                            class="p-2 border-2 border-gray-300 rounded-lg focus:outline-none focus:border-blue-500"></textarea>
+                    </div>
+                    <div class="flex justify-center">
+                        <button type="submit"
+                            class="px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script src="scr.js"></script>
+</body>
+
+</html>
